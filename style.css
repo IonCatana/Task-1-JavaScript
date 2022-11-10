@@ -1,0 +1,53 @@
+/* Resset rule */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Title */
+h2 {
+  text-transform: uppercase;
+  margin-bottom: 60px !important;
+  text-align: center;
+}
+
+/* Common rules */
+h3,
+#input,
+#output {
+  text-align: center;
+  margin: 20px;
+}
+
+/* Body */
+body {
+  background-color: rgb(164, 252, 252);
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Container */
+.container {
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+/* Input */
+#input {
+  color: limegreen;
+  font-size: 34px;
+  font-weight: 600;
+}
+
+/* Output */
+#output {
+  color: red;
+  font-size: 34px;
+  font-weight: 600;
+}
